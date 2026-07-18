@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Lloyd Casis | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">JLC.</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#achievements" class="mobile-link">Achievements</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="floating-shapes">
+            <div class="shape code-shape-1">
+                <span class="code-text">Flutter</span>
+            </div>
+            <div class="shape code-shape-2">
+                <span class="code-text">JavaScript</span>
+            </div>
+            <div class="shape code-shape-3">
+                <span class="code-text">C# .NET</span>
+            </div>
+            <div class="shape code-shape-4">
+                <span class="code-text">Git</span>
+            </div>
+        </div>
+        <div class="container home-container">
+            <div class="home-content" data-aos="fade-right" data-aos-duration="1000">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">John Lloyd Casis</h1>
+                <div class="roles">
+                    <span class="role">Full Stack Developer</span>
+                    <span class="role">AI & Automation Developer</span>
+                    <span class="role">Web Developer</span>
+                    <span class="role">Mobile App Developer</span>
+                </div>
+                <p class="intro">
+                            Cum Laude Information Technology graduate with a strong foundation in full-stack web and mobile application development. Proven track record of delivering high-quality digital solutions, highlighted by winning regional hackathons and pitch competitions. Proficient in C# .NET, Dart/Flutter, and JavaScript. Highly disciplined, analytical, and eager to bring technical excellence to a progressive development team.
+                        </p>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i> View Projects
+                    </a>
+                    <a href="images/MY FINAL RESUME.pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="home-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="image-wrapper">
+                    <img src="images/DARK_PICTURE.jpg" alt="John Lloyd Casis" class="profile-img profile-img-dark">
+                    <img src="images/SUN_MODE.jpg" alt="John Lloyd Casis" class="profile-img profile-img-light">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-info" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Professional Introduction</h3>
+                    <p>
+                        I am a passionate Full Stack Developer and AI/Automation Developer with a strong academic background from Samar State University. I specialize in building scalable web and mobile applications, leveraging modern technologies and best practices.
+                    </p>
+                    <div class="quick-info">
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p class="info-label">Location</p>
+                                <p class="info-value">Catbalogan City, Samar</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <p class="info-label">Degree</p>
+                                <p class="info-value">BS in Information Technology</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p class="info-label">Email</p>
+                                <p class="info-value">casislloyd@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <p class="info-label">Languages</p>
+                                <p class="info-value">English, Filipino</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <p class="info-label">Availability</p>
+                                <p class="info-value">Available for work</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-timeline" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Education</h4>
+                            <p class="timeline-title">Samar State University</p>
+                            <p class="timeline-date">2022 - 2026</p>
+                            <p>Bachelor of Science in Information Technology, Cum Laude</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Internship</h4>
+                            <p class="timeline-title">DPWH - Samar 2nd District Engineering Office</p>
+                            <p class="timeline-date">Feb 2026 - Apr 2026</p>
+                            <ul style="color: var(--text-secondary); margin-top: 0.5rem; padding-left: 1.25rem;">
+                                <li style="margin-bottom: 0.5rem;">Diagnosed and resolved network and configuration faults to restore secure portal access, ensuring uninterrupted accounting operations.</li>
+                                <li style="margin-bottom: 0.5rem;">Designed custom Excel and Word templates, streamlining reporting processes and improving departmental document accuracy.</li>
+                                <li>Restored and reassembled legacy hardware units to fully operational status, facilitating immediate departmental redeployment.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Certifications</h4>
+                            <p class="timeline-title">Civil Service & TESDA</p>
+                            <p class="timeline-date">2022</p>
+                            <ul style="color: var(--text-secondary); margin-top: 0.5rem; padding-left: 1.25rem;">
+                                <li style="margin-bottom: 0.5rem;">Civil Service Professional Eligibility - Honor Graduate Eligibility (P.D. No. 907, Cum Laude)</li>
+                                <li>TESDA National Certificate II (NC II) - Computer Systems Servicing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Interests</h4>
+                            <p class="timeline-title">Tech & Innovation</p>
+                            <p>Web Development, Mobile Apps, AI/Automation, Hackathons, Video Editing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="0">
+                    <h3><i class="fas fa-code"></i> Core Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Flutter</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Dart</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C# / VB.NET</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 87%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>HTML & CSS</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-database"></i> Database & APIs</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 86%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Firebase</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 89%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>API Integration</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 84%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-palette"></i> Design & UX</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>UI/UX Design</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 82%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Figma</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-tools"></i> Tools & Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Git / GitHub</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Database Management</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Technical Troubleshooting</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AI-Assisted Development</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 83%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Rapid Prototyping</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 87%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ai fullstack web" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-image">
+                        <img src="images/fsl.PNG2" alt="FSL Learning App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered Web Application for Filipino Sign Language (FSL) Learning and Real-Time Translation</h3>
+                        <p style="margin-bottom: 0.75rem;">For Catbalogan 1 SPED Center - Co-developed (2026)</p>
+                        <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-bottom: 1rem; padding-left: 1.25rem;">
+                            <li style="margin-bottom: 0.5rem;">Integrated Firebase database to handle user state management, ensuring student progress across FSL lessons is seamlessly saved and restored.</li>
+                            <li>Engineered advanced security features and a secure classroom portal, implementing tab-heartbeat detection, multi-device locking, and real-time progress monitoring for teachers.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Firebase</span>
+                            <span>AI/ML</span>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile fullstack" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/e_obra.jpg" alt="E-Obra App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Obra.ph: Mobile Application for Connecting Residents with Local Artists</h3>
+                        <p style="margin-bottom: 0.75rem;">Co-developed (2025)</p>
+                        <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-bottom: 1rem; padding-left: 1.25rem;">
+                            <li style="margin-bottom: 0.5rem;">Developed a secure mobile authentication system using Flutter and Firebase database, ensuring safe, seamless user access.</li>
+                            <li>Implemented an in-app real-time chat system via Firestore and custom indexes to enable direct price negotiations, while debugging critical errors to maximize application stability.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Firestore</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web fullstack" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/portfolio.PNG" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <p style="margin-bottom: 0.75rem;">Personal Portfolio Website - Developed (2026)</p>
+                        <ul style="color: var(--text-secondary); font-size: 0.875rem; margin-bottom: 1rem; padding-left: 1.25rem;">
+                            <li style="margin-bottom: 0.5rem;">Designed and developed a modern, responsive portfolio website with a clean, professional interface optimized for all devices (desktop, tablet, mobile).</li>
+                            <li style="margin-bottom: 0.5rem;">Implemented light/dark mode toggle with localStorage to save user theme preferences.</li>
+                            <li style="margin-bottom: 0.5rem;">Added smooth animations using AOS (Animate On Scroll), hover effects, and interactive elements.</li>
+                            <li>Built using HTML, CSS, and vanilla JavaScript for fast, lightweight performance.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>AOS (Animate On Scroll)</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Achievements</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Graduated Cum Laude</h3>
+                    <p>Bachelor of Science in Information Technology</p>
+                    <span class="achievement-date">July 2026</span>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>1st Place - Hackathon</h3>
+                    <p>Rscene Hackathon, Catbalogan City</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Champion - Pitch Fest</h3>
+                    <p>SSU Charter Day Pitch Fest (AuthentiSync Plus)</p>
+                    <span class="achievement-date">2024</span>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Civil Service Eligibility</h3>
+                    <p>Professional Level - Honor Graduate</p>
+                    <span class="achievement-date">2022</span>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="achievement-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>TESDA NC II</h3>
+                    <p>Computer Systems Servicing</p>
+                    <span class="achievement-date">April 2022</span>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="achievement-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>DPWH Internship</h3>
+                    <p>IT Intern at Samar 2nd District Engineering Office</p>
+                    <span class="achievement-date">Feb - Apr 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content" data-aos="fade-up">
+                <div class="contact-header">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
+                </div>
+                <div class="contact-cards">
+                    <a href="mailto:casislloyd@gmail.com" class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>casislloyd@gmail.com</p>
+                    </a>
+                    <a href="tel:+639096374472" class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p>+63 909 637 4472</p>
+                    </a>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Catbalogan City, Samar, Philippines</p>
+                    </div>
+                </div>
+                <div class="social-section">
+                    <h4>Connect with me</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/john-lloyd-casis" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="resume-section">
+                    <a href="images/MY FINAL RESUME.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">JLC.</a>
+                    <p>Building digital solutions with passion and precision.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <a href="https://linkedin.com/in/john-lloyd-casis" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 John Lloyd Casis. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
